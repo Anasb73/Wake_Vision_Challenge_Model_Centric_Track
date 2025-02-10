@@ -173,7 +173,7 @@ def blazeFace(
 
 
 
-blazeface_backbone = blazeFace(input_shape = input_shape, use_double_block= False, activation = 'relu', use_optional_block= False, use_resblock=False)
+blazeface_backbone = blazeFace(input_shape = input_shape, use_double_block= True, activation = 'relu', use_optional_block= False, use_resblock=False)
 feature = GlobalAveragePooling2D(name="feature")(blazeface_backbone.output)
 output = Dense(2, activation='softmax')(feature)
 
