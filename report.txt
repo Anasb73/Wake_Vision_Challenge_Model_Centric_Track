@@ -1,0 +1,5 @@
+The changes made to the original model:
+
+The architechture of the model which is inspired from the blaze face model from th paper : "https://arxiv.org/pdf/1907.05047" I tested to optimized version of this model without residual networks one with and the other without using double blocks.
+
+Particpant: Anas Benalla 
