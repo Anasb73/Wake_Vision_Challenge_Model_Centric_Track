@@ -1,5 +1,6 @@
 The changes made to the original model:
 
 The architechture of the model which is inspired from the blaze face model from th paper : "https://arxiv.org/pdf/1907.05047" I tested to optimized version of this model without residual networks one with and the other without using double blocks.
+The best model is trained for a small number of epochs (around 5) and achieve 76% Accuracy.
 
 Particpant: Anas Benalla 
